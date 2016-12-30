@@ -8,7 +8,8 @@ https://hub.docker.com/r/wsrak/rpi-fluentd/
 ## build
 
 ~~~
-docker build -t gorakuru/rpi-fluentd-mqtt-elasticsearch
+git clone https://github.com/gorakuru/rpi-fluentd-mqtt-elasticsearch.git
+docker build -t gorakuru/rpi-fluentd-mqtt-elasticsearch rpi-fluentd-mqtt-elasticsearch
 ~~~
 
 ## run
