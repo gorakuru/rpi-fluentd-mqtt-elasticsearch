@@ -18,3 +18,9 @@ docker build -t gorakuru/rpi-fluentd-mqtt-elasticsearch rpi-fluentd-mqtt-elastic
 docker run -d gorakuru/rpi-fluentd-mqtt-elasticsearch
 ~~~
 
+or
+
+~~~
+docker run -d -v /fluentd:/fluentd/etc gorakuru/rpi-fluentd-mqtt-elasticsearch 
+~~~
+
